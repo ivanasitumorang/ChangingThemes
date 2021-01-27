@@ -12,11 +12,11 @@ import androidx.fragment.app.Fragment
  * Android Engineer
  */
 
-abstract class BaseFragment: Fragment() {
+abstract class BaseFragment : Fragment() {
 
     abstract val viewLayout: Int
 
-    abstract fun onFragmentReady(savedInstanceState: Bundle?)
+    abstract fun onFragmentReady(view: View, savedInstanceState: Bundle?)
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,6 +28,6 @@ abstract class BaseFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        onFragmentReady(savedInstanceState)
+        onFragmentReady(view, savedInstanceState)
     }
 }
