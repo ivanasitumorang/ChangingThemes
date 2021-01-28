@@ -10,4 +10,16 @@
 
     <color name="blue_jewel">#0fb5c5</color>
     <color name="white_netral">#fafafa</color>
+
+
+<!--  Theme PINK  -->
+    <color name="pink_200">#F48FB1</color>
+    <color name="pink_500">#E91E63</color>
+    <color name="pink_700">#C2185B</color>
+
+
+<!--  Theme BLUE  -->
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_700">#1976D2</color>
 </resources>
