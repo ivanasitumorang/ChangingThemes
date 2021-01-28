@@ -1,7 +1,6 @@
 package com.azuka.changingthemes.fragment
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -59,24 +58,18 @@ class SettingsFragment : BaseFragment() {
     }
 
     private fun changeThemePink() {
-//        context?.setTheme(R.style.Theme_Azuka_Pink)
         themeSession.setTheme(Constant.Themes.PINK)
         ProcessPhoenix.triggerRebirth(context)
-        Log.i("Hasil", "to pink")
     }
 
     private fun changeThemeBlue() {
-//        context?.setTheme(R.style.Theme_Azuka_Blue)
         themeSession.setTheme(Constant.Themes.BLUE)
         ProcessPhoenix.triggerRebirth(context)
-        Log.i("Hasil", "to blue")
     }
 
     private fun changeThemeDefault() {
-//        context?.setTheme(R.style.Theme_Azuka)
         themeSession.setTheme(Constant.Themes.DEFAULT)
         ProcessPhoenix.triggerRebirth(context)
-        Log.i("Hasil", "to default")
     }
 
     override fun onDestroyView() {
