@@ -27,22 +27,19 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
-                style="@style/Widget.App.Button" />
+                android:text="Button" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button"
-                style="@style/Widget.App.Button" />
+                android:text="Button" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="14dp"
                 android:paddingBottom="14dp"
-                android:text="Button"
-                android:theme="@style/Widget.App.Button" />
+                android:text="Button" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -63,24 +60,24 @@
                 android:text="Button Outline" />
 
             <com.google.android.material.button.MaterialButton
+                style="@style/Widget.App.Button.Outline"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button"
-                style="@style/Widget.App.Button.Outline" />
+                android:text="Button" />
 
             <com.google.android.material.button.MaterialButton
+                style="@style/Widget.App.Button.Outline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button"
-                style="@style/Widget.App.Button.Outline" />
+                android:text="Button" />
 
             <com.google.android.material.button.MaterialButton
+                style="@style/Widget.App.Button.Outline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="14dp"
                 android:paddingBottom="14dp"
-                android:text="Button"
-                style="@style/Widget.App.Button.Outline" />
+                android:text="Button" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -104,7 +101,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_next"
                 app:iconGravity="end" />
 
@@ -112,7 +108,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_next"
                 app:iconGravity="end" />
 
@@ -120,7 +115,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_next"
                 app:iconGravity="textEnd" />
 
@@ -130,7 +124,6 @@
                 android:paddingTop="14dp"
                 android:paddingBottom="14dp"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_next"
                 app:iconGravity="textEnd" />
 
@@ -156,7 +149,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_back"
                 app:iconGravity="start" />
 
@@ -164,7 +156,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Button"
-                android:theme="@style/Widget.App.Button"
                 app:icon="@drawable/ic_back"
                 app:iconGravity="start" />
 
@@ -218,8 +209,7 @@
                 android:id="@+id/btnReset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reset"
-                android:theme="@style/Widget.App.Button" />
+                android:text="Reset" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnTest"
@@ -227,8 +217,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="14dp"
                 android:paddingBottom="14dp"
-                android:text="Click me friend"
-                android:theme="@style/Widget.App.Button" />
+                android:text="Click me friend" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
